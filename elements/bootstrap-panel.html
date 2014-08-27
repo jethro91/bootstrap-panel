@@ -1,0 +1,54 @@
+<link rel="import" href="/components/polymer/polymer.html">
+
+<polymer-element name="bootstrap-panel">
+<template>
+<style>
+	:host{
+	display: block;
+	border-color: #ddd;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	box-sizing: border-box;
+	}
+    .heading{
+      	color: #333;
+		background-color: #f5f5f5;
+		border-color: #ddd;
+		padding-left: 15px;
+		border-bottom: 1px solid transparent;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+    }
+	polyfill-next-selector { content: '.heading h3'; }
+    .heading ::content h3 {
+      	margin-top: 0;
+		margin-bottom: 0;
+		font-size: 16px;
+		font-weight: 500;
+		color: inherit;
+		padding-top: 10px;
+		padding-bottom: 15px;
+    }
+	.body {
+	padding: 15px;
+	}
+
+</style>
+
+
+<div class="heading">
+	<content select="h3"></content>
+</div>
+<div class="body">
+<content></content>
+</div>
+</template>
+
+<script>
+Polymer({});
+</script>
+</polymer-element>

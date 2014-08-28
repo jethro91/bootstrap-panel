@@ -1,5 +1,6 @@
-bootstrap-panel
-==========
+# &lt;bootstrap-panel&gt;
+
+> A web component to show a bootstrap-panel.
 
 just use this tag to create an awesome bootstrap panel
 ```html
@@ -22,3 +23,15 @@ without panel heading
 </bootstrap-panel>
 
 ```
+
+Color Selection
+---
+```html
+<bootstrap-panel bscolor="default">
+  <h3>Panel Heading (Default)</h3>
+  Panel Body
+
+</bootstrap-panel>
+```
+![Example](result/default.PNG)
+

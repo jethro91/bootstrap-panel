@@ -11,3 +11,14 @@ just use this tag for creating an awesome bootstrap panel
 
 ```
 and taraaa.... now you have an awesome bootstrap panel 
+
+without panel heading
+---
+
+```html
+
+<bootstrap-panel>
+  Panel Content
+</bootstrap-panel>
+
+```

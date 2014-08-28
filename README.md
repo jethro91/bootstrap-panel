@@ -28,7 +28,7 @@ Color Selection
 ---
 ```html
 <bootstrap-panel bscolor="default">
-  <h3>Panel Heading (Default)</h3>
+  <h3>Panel Heading</h3>
   Panel Body
 
 </bootstrap-panel>
@@ -37,7 +37,7 @@ Color Selection
 
 ```html
 <bootstrap-panel bscolor="primary">
-  <h3>Panel Heading Primary</h3>
+  <h3>Panel Heading</h3>
   Panel Body
 
 </bootstrap-panel>
@@ -46,7 +46,7 @@ Color Selection
 
 ```html
 <bootstrap-panel bscolor="success">
-  <h3>Panel Heading Success</h3>
+  <h3>Panel Heading</h3>
   Panel Body
 
 </bootstrap-panel>
@@ -54,7 +54,7 @@ Color Selection
 ![Example](results/success.PNG)
 ```html
 <bootstrap-panel bscolor="info">
-  <h3>Panel Heading Info</h3>
+  <h3>Panel Heading</h3>
   Panel Body
 
 </bootstrap-panel>
@@ -62,7 +62,7 @@ Color Selection
 ![Example](results/info.PNG)
 ```html
 <bootstrap-panel bscolor="warning">
-  <h3>Panel Heading Warning</h3>
+  <h3>Panel Heading</h3>
   Panel Body
 
 </bootstrap-panel>
@@ -70,7 +70,7 @@ Color Selection
 ![Example](results/warning.PNG)
 ```html
 <bootstrap-panel bscolor="danger">
-  <h3>Panel Heading Danger</h3>
+  <h3>Panel Heading</h3>
   Panel Body
 
 </bootstrap-panel>

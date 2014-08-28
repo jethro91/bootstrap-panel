@@ -2,6 +2,8 @@
 
 > A web component to show a bootstrap-panel.
 
+[See the demo](http://jethro91.github.io/bootstrap-panel/)
+
 just use this tag to create an awesome bootstrap panel
 ```html
 

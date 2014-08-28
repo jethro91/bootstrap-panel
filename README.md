@@ -1,7 +1,7 @@
 bootstrap-panel
 ==========
 
-just use this tag for creating an awesome bootstrap panel
+just use this tag to create an awesome bootstrap panel
 ```html
 
 <bootstrap-panel>

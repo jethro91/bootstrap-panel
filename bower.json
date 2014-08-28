@@ -15,6 +15,7 @@
   ],
     "keywords": ["Polymer", "web-components", "panel", "bootstrap", "bootstrap-panel"],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.3.5"
+    "polymer": "Polymer/polymer#~0.3.5",
+    "platform": "polymer/platform#~0.3.5"
   }
 }

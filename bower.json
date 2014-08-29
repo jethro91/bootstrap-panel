@@ -1,21 +1,33 @@
 {
   "name": "bootstrap-panel",
-  "version": "0.0.1",
+  "version": "0.2.0",
+  "homepage": "http://jethro91.github.io/bootstrap-panel/",
   "authors": [
     "Jethro Bhaskara"
   ],
-  "description": "polymer element for bootstrap style panel",
-  "main": "element/*",
+  "description": "bootstrap panel like in polymer",
+  "main": "elements/bootstrap-panel.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bootstrap-panel",
+    "bootstrap",
+    "panel",
+    "card",
+    "custom",
+    "elements"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    
+    "test",
+    "tests"
   ],
-    "keywords": ["Polymer", "web-components", "panel", "bootstrap", "bootstrap-panel"],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.3.5",
-    "platform": "polymer/platform#~0.3.5"
+    "platform": "Polymer/platform#>=0.3.0 <1.0.0",
+    "polymer": "Polymer/polymer#~0.3.5"
   }
 }
